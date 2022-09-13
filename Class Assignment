@@ -1,0 +1,32 @@
+print("Enter Your First Input")
+input_one=int(input())
+print("Enter Your Second Input")
+input_two=int(input())
+input_three=None
+add=input_one+input_two
+sub=input_one-input_two
+div=input_one/input_two
+mul=input_one*input_two
+exp=input_one**input_two
+
+print("Your Results are")
+print("Addition =",add)
+print("Subtraction =",sub)
+print("Division =",div)
+print("Multiplication =",mul)
+print(input_one,"to the power of",input_two," =",exp)
+
+print("Add the Third input")
+input_three=int(input())
+
+add=add+input_three
+sub=sub-input_three
+div=div/input_three
+mul=mul*input_three
+
+print("Your Results are")
+print("Addition =",add)
+print("Subtraction =",sub)
+print("Division =",div)
+print("Multiplication =",mul)
+
