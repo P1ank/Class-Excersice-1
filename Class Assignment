@@ -3,6 +3,7 @@ input_one=int(input())
 print("Enter Your Second Input")
 input_two=int(input())
 input_three=None
+input_four=None
 add=input_one+input_two
 sub=input_one-input_two
 div=input_one/input_two
@@ -23,6 +24,21 @@ add=add+input_three
 sub=sub-input_three
 div=div/input_three
 mul=mul*input_three
+
+print("Your Results are")
+print("Addition =",add)
+print("Subtraction =",sub)
+print("Division =",div)
+print("Multiplication =",mul)
+print("Enter the fourth input =")
+
+
+input_four = int(input())
+add=add+input_four
+sub=sub-input_four
+div=div/input_four
+mul=mul*input_four
+
 
 print("Your Results are")
 print("Addition =",add)
